@@ -1,6 +1,6 @@
 {
   "name": "YouTube Downloader Bot",
-  "description": "A telegram bot To Download Youtube Files ",
+  "description": "Youtube download Files bot ",
   "logo": "https://telegra.ph/file/6a3b1febade2313dd0dca.jpg",
   "keywords": [
     "Youtube","YoutubeDownloader"
@@ -9,9 +9,9 @@
   "success_url": "https://t.me/youtubdlbot",
   "website": "https://github.com/aryanvikash/Youtube-Downloader-Bot",
   "env": {
-        "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
-        "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
-        "BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true}
+        "API_ID": {"description": "Dapatlan informasi API_ID Di https://my.telegram.org", "required": true},
+        "API_HASH": {"description": "Dapatkan informasi API_HAS Di https://my.telegram.org" , "required": true},
+        "BOT_TOKEN": {"description": "Dapatkan Token Bot di @BotFather Bot","required": true}
   },
       "buildpacks": [
         {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
